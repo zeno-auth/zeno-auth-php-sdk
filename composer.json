@@ -1,0 +1,22 @@
+{
+    "name": "zeno-auth/sdk",
+    "description": "Zeno Auth SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/http-foundation": "^4.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZenoAuth\\SDK\\": "src/"
+        }
+    }
+}
